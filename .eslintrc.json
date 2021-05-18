@@ -16,7 +16,10 @@
     "@typescript-eslint"
   ],
   "rules": {
-    "no-console": "error",
+    "no-console": [
+      "error",
+      { "allow": [ "warn", "error" ] }
+    ],
     "no-template-curly-in-string": "error",
     "array-callback-return": [
       "error",
